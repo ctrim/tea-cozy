@@ -5,6 +5,7 @@ body {
 	color: seashell;
 	background-color: black;
 	opacity: .9;
+	text-align: center;
 }
 
 /*header*/
@@ -31,4 +32,40 @@ body {
 	background-image: url("../images/background.jpg");
 	height: 700px;
 	width: 1200px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#mission {
+	display: flex;
+	justify-content: center;
+}
+
+.imgtxt {
+	background-color: black;
+	width: 1200px;
+}
+
+/*featured teas*/
+.featured {
+	display: flex;
+	flex-direction: column;
+	width: 1000px;
+}
+
+.teapics img {
+	height: 200px;
+	width: 300px;
+	margin: 10px;
+}
+
+.teapics {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.teapics span {
+	display: block;
 }
