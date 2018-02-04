@@ -48,9 +48,11 @@ body {
 }
 
 /*featured teas*/
-.featured {
+#featured {
 	display: flex;
 	flex-direction: column;
+	justify-content: center;
+	margin-top: 30px;
 	width: 1000px;
 }
 
@@ -68,4 +70,25 @@ body {
 
 .teapics span {
 	display: block;
+}
+
+/*locations*/
+#locations {
+	display: flex;
+	flex-direction: column;
+	background-image: url("../images/locations-background.jpg");
+	height: 500px;
+	margin-top: 30px;
+}
+
+.listloc {
+	display: flex;
+	justify-content: center;
+}
+
+.locate {
+	background-color: black;
+	margin: 20px;
+	width: 300px;
+	padding: 30px 0;
 }
